@@ -52,11 +52,40 @@ footer{
   max-height: 3rem;
 }
 
+.qw-icon img{
+  max-height: 5rem;
+}
+
+a{
+  color: #84AFE6 !important;
+}
+
+
+
 </style>
 </head>
 <body>
+<div uk-sticky="start: 200; animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light">
+  <nav class="uk-navbar-container" uk-navbar>
+    <div class="uk-navbar-right">
+
+      <ul class="uk-navbar-nav">
+          <li>
+              <a href="">Qooweb</a>
+          </li>
+      </ul>
+
+    </div>
+  </nav>
+</div>
+
 <div class="title-container center uk-background-cover">
-  <h1 class="title" >Qooweb</h1>
+  <h1 class="title" >
+    <div class="qw-icon">
+    <image data-src="assets/images/qooweb-512.png" uk-img />
+  </div>
+  Qooweb
+</h1>
 </div>
 
 

@@ -1,0 +1,58 @@
+body{
+  font-family: 'Radio Canada', sans-serif !important;
+
+}
+
+.qw-title{
+  color: #84AFE6;
+  font-size: 450%;
+  font-weight: 600;
+}
+
+.qw-subtitle{
+  color: #84AFE6;
+}
+
+.title-container{
+ margin-top: 10rem;
+}
+
+.center{
+ text-align: center;
+}
+
+.content{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+}
+
+footer{
+  background-color: #84AFE6;
+  padding: 1rem;
+  color: whitesmoke;
+  font-weight: 400;
+}
+
+.qw-primary{
+  background-color: #84AFE6;
+}
+
+.qw-tech-icon img{
+  max-width: 10rem;
+  max-height: 3rem;
+}
+
+.qw-icon img{
+  max-height: 5rem;
+}
+
+.qw-portfolio img{
+  max-height: 20rem;
+}
+
+.qw-nav-list{
+  color: #84AFE6 !important;
+}
